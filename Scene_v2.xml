@@ -4,11 +4,11 @@
 	<attribute name="Time Scale" value="1" />
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
-	<attribute name="Elapsed Time" value="6724.17" />
+	<attribute name="Elapsed Time" value="6723.26" />
 	<attribute name="Next Replicated Node ID" value="888" />
-	<attribute name="Next Replicated Component ID" value="857" />
-	<attribute name="Next Local Node ID" value="16777364" />
-	<attribute name="Next Local Component ID" value="16777701" />
+	<attribute name="Next Replicated Component ID" value="854" />
+	<attribute name="Next Local Node ID" value="16777361" />
+	<attribute name="Next Local Component ID" value="16777665" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="" />
 	<component type="Octree" id="1" />
@@ -16,11 +16,6 @@
 	<component type="PhysicsWorld" id="3" />
 	<component type="ScriptInstance" id="11">
 		<attribute name="Delayed Method Calls" value="0" />
-		<attribute name="Class Name" value="CameraEffects" />
-	</component>
-	<component type="ScriptInstance" id="854">
-		<attribute name="Delayed Method Calls" value="0" />
-		<attribute name="Script File" value="ScriptFile;CustomResources/DottedPath.as" />
 		<attribute name="Class Name" value="DottedLine" />
 	</component>
 	<node id="16777220">
@@ -62,7 +57,7 @@
 			<attribute name="Variables" />
 			<component type="StaticModel" id="16777366">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/my_red.xml" />
+				<attribute name="Material" value="Material;CustomResources/Colors/my_red.xml" />
 			</component>
 		</node>
 		<node id="16777246">
@@ -75,7 +70,7 @@
 			<attribute name="Variables" />
 			<component type="StaticModel" id="16777389">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/my_yellow.xml" />
+				<attribute name="Material" value="Material;CustomResources/Colors/my_yellow.xml" />
 			</component>
 		</node>
 		<node id="16777247">
@@ -88,7 +83,7 @@
 			<attribute name="Variables" />
 			<component type="StaticModel" id="16777390">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/my_green.xml" />
+				<attribute name="Material" value="Material;CustomResources/Colors/my_green.xml" />
 			</component>
 		</node>
 		<node id="16777249">
@@ -101,7 +96,7 @@
 			<attribute name="Variables" />
 			<component type="StaticModel" id="16777392">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/my_blue.xml" />
+				<attribute name="Material" value="Material;CustomResources/Colors/my_blue.xml" />
 			</component>
 		</node>
 		<node id="16777257">
@@ -114,7 +109,7 @@
 			<attribute name="Variables" />
 			<component type="StaticModel" id="16777438">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/my_orange.xml" />
+				<attribute name="Material" value="Material;CustomResources/Colors/my_orange.xml" />
 			</component>
 		</node>
 		<node id="16777345">
@@ -127,7 +122,7 @@
 			<attribute name="Variables" />
 			<component type="StaticModel" id="16777603">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/my_puprle.xml" />
+				<attribute name="Material" value="Material;CustomResources/Colors/my_puprle.xml" />
 			</component>
 		</node>
 	</node>
@@ -162,7 +157,7 @@
 		</component>
 		<component type="StaticModel" id="16777237">
 			<attribute name="Model" value="Model;Models/Box.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Sand.xml" />
+			<attribute name="Material" value="Material;CustomResources/Materials/Sand.xml" />
 		</component>
 	</node>
 	<node id="16777260">
@@ -188,7 +183,7 @@
 			</component>
 			<component type="StaticModel" id="16777455">
 				<attribute name="Model" value="Model;Models/Box.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Wall.xml" />
 			</component>
 		</node>
 		<node id="16777265">
@@ -205,7 +200,7 @@
 			</component>
 			<component type="StaticModel" id="16777458">
 				<attribute name="Model" value="Model;Models/Box.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Wall.xml" />
 			</component>
 		</node>
 		<node id="16777266">
@@ -222,7 +217,7 @@
 			</component>
 			<component type="StaticModel" id="16777461">
 				<attribute name="Model" value="Model;Models/Box.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Wall.xml" />
 			</component>
 		</node>
 		<node id="16777267">
@@ -240,7 +235,7 @@
 			</component>
 			<component type="StaticModel" id="16777464">
 				<attribute name="Model" value="Model;Models/Box.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Wall.xml" />
 			</component>
 		</node>
 	</node>
@@ -290,7 +285,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777477">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777270">
@@ -303,7 +298,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777480">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -325,7 +320,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777495">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777280">
@@ -338,7 +333,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777496">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -360,7 +355,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777497">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777283">
@@ -373,7 +368,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777498">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -395,7 +390,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777499">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777286">
@@ -408,7 +403,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777500">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -430,7 +425,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777501">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777289">
@@ -443,7 +438,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777502">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -465,7 +460,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777503">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777292">
@@ -478,7 +473,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777504">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -500,7 +495,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777505">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777295">
@@ -513,7 +508,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777506">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -535,7 +530,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777507">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777298">
@@ -548,7 +543,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777508">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -570,7 +565,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777509">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777301">
@@ -583,7 +578,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777510">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -605,7 +600,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777511">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 			<node id="16777304">
@@ -618,7 +613,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="16777512">
 					<attribute name="Model" value="Model;Models/Plane.mdl" />
-					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+					<attribute name="Material" value="Material;CustomResources/Materials/Grass.xml" />
 				</component>
 			</node>
 		</node>
@@ -647,7 +642,7 @@
 			</component>
 			<component type="StaticModel" id="16777539">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 		<node id="16777309">
@@ -666,7 +661,7 @@
 			</component>
 			<component type="StaticModel" id="16777542">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 		<node id="16777311">
@@ -685,7 +680,7 @@
 			</component>
 			<component type="StaticModel" id="16777548">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 		<node id="16777312">
@@ -704,7 +699,7 @@
 			</component>
 			<component type="StaticModel" id="16777551">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 		<node id="16777314">
@@ -723,7 +718,7 @@
 			</component>
 			<component type="StaticModel" id="16777566">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 		<node id="16777315">
@@ -742,7 +737,7 @@
 			</component>
 			<component type="StaticModel" id="16777569">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 		<node id="16777351">
@@ -762,7 +757,7 @@
 			</component>
 			<component type="StaticModel" id="16777610">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+				<attribute name="Material" value="Material;CustomResources/Materials/Rock.xml" />
 			</component>
 		</node>
 	</node>
@@ -799,12 +794,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777577">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="1m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -827,12 +821,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777578">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="2m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -855,12 +848,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777579">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="3m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -883,12 +875,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777580">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="4m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -920,12 +911,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777591">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="1m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -948,12 +938,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777592">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="2m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -976,12 +965,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777593">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="3m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1004,12 +992,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777594">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="4m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1041,12 +1028,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777595">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="1m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1069,12 +1055,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777596">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="2m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1097,12 +1082,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777597">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="3m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1125,12 +1109,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777598">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="4m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1162,12 +1145,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777599">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="1m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1190,12 +1172,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777600">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="2m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1218,12 +1199,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777601">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="3m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1246,12 +1226,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777602">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="4m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1283,12 +1262,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777604">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="1m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1311,12 +1289,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777605">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="2m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1339,12 +1316,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777606">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="3m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
@@ -1367,12 +1343,11 @@
 					<attribute name="Scale" value="1 1 1" />
 					<attribute name="Variables" />
 					<component type="Text3D" id="16777607">
-						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font" value="Font;CustomResources/Fonts/font.TTF" />
 						<attribute name="Font Size" value="25" />
 						<attribute name="Text" value="4m" />
 						<attribute name="Text Alignment" value="Center" />
 						<attribute name="Face Camera Mode" value="Rotate Y" />
-						<attribute name="Draw Distance" value="10" />
 						<attribute name="Width" value="53" />
 						<attribute name="Text Effect" value="Stroke" />
 					</component>
