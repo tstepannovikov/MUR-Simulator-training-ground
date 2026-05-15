@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<material>
+    <technique name="Techniques/DiffNormalSpec.xml" />
+    
+    <texture unit="diffuse" name="CustomResources/Textures/sand_col_1k.jpg" />
+    <texture unit="normal" name="CustomResources/Textures/sand_nor_1k.jpg" />
+    <texture unit="specular" name="CustomResources/Textures/sand_gloss_1k.jpg" />
+    
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.3 0.3 0.3 50" />
+    
+    <parameter name="UOffset" value="4 0 0 0" />
+    <parameter name="VOffset" value="0 4 0 0" />
+</material>

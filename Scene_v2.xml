@@ -1,0 +1,1520 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="6724.17" />
+	<attribute name="Next Replicated Node ID" value="888" />
+	<attribute name="Next Replicated Component ID" value="857" />
+	<attribute name="Next Local Node ID" value="16777364" />
+	<attribute name="Next Local Component ID" value="16777701" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="Octree" id="1" />
+	<component type="DebugRenderer" id="2" />
+	<component type="PhysicsWorld" id="3" />
+	<component type="ScriptInstance" id="11">
+		<attribute name="Delayed Method Calls" value="0" />
+		<attribute name="Class Name" value="CameraEffects" />
+	</component>
+	<component type="ScriptInstance" id="854">
+		<attribute name="Delayed Method Calls" value="0" />
+		<attribute name="Script File" value="ScriptFile;CustomResources/DottedPath.as" />
+		<attribute name="Class Name" value="DottedLine" />
+	</component>
+	<node id="16777220">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="water" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 -20.0626 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Zone" id="16777228">
+			<attribute name="Bounding Box Min" value="-20 -20 -20" />
+			<attribute name="Bounding Box Max" value="20 20 20" />
+			<attribute name="Ambient Color" value="0.05 0.1 0.15 1" />
+			<attribute name="Fog Color" value="0.15 0.4 0.35 1" />
+			<attribute name="Fog Start" value="0" />
+			<attribute name="Fog End" value="10" />
+			<attribute name="Fog Height Scale" value="1" />
+			<attribute name="Height Fog Mode" value="true" />
+			<attribute name="Override Mode" value="true" />
+			<attribute name="Ambient Gradient" value="true" />
+		</component>
+	</node>
+	<node id="4">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="markers" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16777240">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="startpos" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 -1 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="0.75 0.75 0.75" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16777366">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/my_red.xml" />
+			</component>
+		</node>
+		<node id="16777246">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="point1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 -1 5.86211" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="0.75 0.75 0.75" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16777389">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/my_yellow.xml" />
+			</component>
+		</node>
+		<node id="16777247">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="point5" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="6.85925 -4 5.96241" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="0.75 0.75 0.75" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16777390">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/my_green.xml" />
+			</component>
+		</node>
+		<node id="16777249">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="point2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.35797 -3 5.11074" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="0.75 0.75 0.75" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16777392">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/my_blue.xml" />
+			</component>
+		</node>
+		<node id="16777257">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="point3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.57977 -1 -5.97092" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="0.75 0.75 0.75" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16777438">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/my_orange.xml" />
+			</component>
+		</node>
+		<node id="16777345">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="point4" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="6.85925 -1 -5.14603" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="0.75 0.75 0.75" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16777603">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/my_puprle.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="16777248">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Light" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="16777391">
+			<attribute name="Length" value="40" />
+			<attribute name="Range" value="20" />
+			<attribute name="Light Shape Texture" value="TextureCube;" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="16777222">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="bottom" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 -5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="20 1 20" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777231">
+			<attribute name="Model" value="Model;Models/Pool.mdl" />
+		</component>
+		<component type="RigidBody" id="16777232">
+			<attribute name="Physics Position" value="0 -5 0" />
+		</component>
+		<component type="StaticModel" id="16777237">
+			<attribute name="Model" value="Model;Models/Box.mdl" />
+			<attribute name="Material" value="Material;CustomResources/Sand.xml" />
+		</component>
+	</node>
+	<node id="16777260">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="walls" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="3.07809 -1.27833 1.55304" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16777261">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="wall4" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.15334 -1.06701 -12.052" />
+			<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+			<attribute name="Scale" value="1 6.36164 19.9868" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777453" />
+			<component type="RigidBody" id="16777454">
+				<attribute name="Physics Rotation" value="0.707107 0 0.707107 0" />
+				<attribute name="Physics Position" value="-0.0752492 -2.34534 -10.4989" />
+			</component>
+			<component type="StaticModel" id="16777455">
+				<attribute name="Model" value="Model;Models/Box.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+			</component>
+		</node>
+		<node id="16777265">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="wall1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="7.20482 -1.06701 -1.55186" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 6.36164 19.9868" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777456" />
+			<component type="RigidBody" id="16777457">
+				<attribute name="Physics Position" value="10.2829 -2.34534 0.00118005" />
+			</component>
+			<component type="StaticModel" id="16777458">
+				<attribute name="Model" value="Model;Models/Box.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+			</component>
+		</node>
+		<node id="16777266">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="wall2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-13.4726 -1.06701 -1.55186" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 6.36164 19.9868" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777459" />
+			<component type="RigidBody" id="16777460">
+				<attribute name="Physics Position" value="-10.3946 -2.34534 0.0011785" />
+			</component>
+			<component type="StaticModel" id="16777461">
+				<attribute name="Model" value="Model;Models/Box.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+			</component>
+		</node>
+		<node id="16777267">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="wall3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.15334 -1.06701 8.86799" />
+			<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+			<attribute name="Scale" value="1 6.36164 19.9868" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777462" />
+			<component type="RigidBody" id="16777463">
+				<attribute name="Physics Rotation" value="0.707107 0 0.707107 0" />
+				<attribute name="Physics Position" value="-0.0752492 -2.34534 10.421" />
+			</component>
+			<component type="StaticModel" id="16777464">
+				<attribute name="Model" value="Model;Models/Box.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Wall.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="16777273">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Zone" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 19.7795 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Zone" id="16777494">
+			<attribute name="Bounding Box Min" value="-20 -20 -20" />
+			<attribute name="Bounding Box Max" value="20 20 20" />
+			<attribute name="Ambient Color" value="0.05 0.1 0.15 1" />
+			<attribute name="Fog Color" value="1 1 1 1" />
+			<attribute name="Fog Start" value="0" />
+			<attribute name="Fog End" value="300" />
+			<attribute name="Height Fog Mode" value="true" />
+			<attribute name="Override Mode" value="true" />
+			<attribute name="Ambient Gradient" value="true" />
+		</component>
+	</node>
+	<node id="16777276">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="grass" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="5.45583 -1.70633 4.38608" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16777277">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="10" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.53863 -2.73899 3.24136" />
+			<attribute name="Rotation" value="0.278232 0 0.960449 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777269">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777477">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777270">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777480">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777278">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 -2.73899 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777279">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777495">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777280">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777496">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777281">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.33736 -2.73899 -2.96608" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777282">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777497">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777283">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777498">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777284">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-7.57686 -2.73899 -1.60347" />
+			<attribute name="Rotation" value="0.972165 0 0.234245 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777285">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777499">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777286">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777500">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777287">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="4" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-9.95088 -2.73899 -8.77518" />
+			<attribute name="Rotation" value="0.987312 0 0.158716 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777288">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777501">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777289">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777502">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777290">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="5" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.414392 -2.73899 -8.77518" />
+			<attribute name="Rotation" value="0.945721 0 -0.324946 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777291">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777503">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777292">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777504">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777293">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="6" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-4.18157 -2.73899 -7.29658" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777294">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777505">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777295">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777506">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777296">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="7" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-12.1106 -2.73899 -4.92027" />
+			<attribute name="Rotation" value="0.987778 0 0.155813 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777297">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777507">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777298">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777508">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777299">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="8" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-12.1106 -2.73899 1.8173" />
+			<attribute name="Rotation" value="0.996512 0 0.0832454 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777300">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777509">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777301">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777510">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="16777302">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="9" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-6.34663 -2.73899 -11.5078" />
+			<attribute name="Rotation" value="0.931848 0 -0.362791 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777303">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 0.254744 0.285574" />
+				<attribute name="Scale" value="1.5 1 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777511">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+			<node id="16777304">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="part2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.182388 0.626602 -0.0324249" />
+				<attribute name="Rotation" value="0.615006 -0.689435 -0.254744 -0.285573" />
+				<attribute name="Scale" value="1.5 0.999999 1.5" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="16777512">
+					<attribute name="Model" value="Model;Models/Plane.mdl" />
+					<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777307">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="rocks" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-1.73807 -2.09123 -1.5328" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16777308">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock4" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="7.06894 -2.50053 -4.12598" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777537">
+				<attribute name="Shape Type" value="Sphere" />
+			</component>
+			<component type="RigidBody" id="16777538">
+				<attribute name="Physics Position" value="5.33088 -4.59176 -5.65878" />
+			</component>
+			<component type="StaticModel" id="16777539">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+		<node id="16777309">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 -2.46132 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777540">
+				<attribute name="Shape Type" value="Sphere" />
+			</component>
+			<component type="RigidBody" id="16777541">
+				<attribute name="Physics Position" value="-1.73807 -4.55255 -1.5328" />
+			</component>
+			<component type="StaticModel" id="16777542">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+		<node id="16777311">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.46946 -2.66481 9.31268" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1.5 1.5 1.5" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777546">
+				<attribute name="Shape Type" value="Sphere" />
+			</component>
+			<component type="RigidBody" id="16777547">
+				<attribute name="Physics Position" value="-3.20753 -4.75604 7.77988" />
+			</component>
+			<component type="StaticModel" id="16777548">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+		<node id="16777312">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock6" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="4.25606 -2.85612 8.08673" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="2 2 2" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777549">
+				<attribute name="Shape Type" value="Sphere" />
+			</component>
+			<component type="RigidBody" id="16777550">
+				<attribute name="Physics Position" value="2.51799 -4.94735 6.55393" />
+			</component>
+			<component type="StaticModel" id="16777551">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+		<node id="16777314">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock7" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-5.83491 -2.61401 2.57504" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1.5 1.5 1.5" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777564">
+				<attribute name="Shape Type" value="Sphere" />
+			</component>
+			<component type="RigidBody" id="16777565">
+				<attribute name="Physics Position" value="-7.57298 -4.70524 1.04224" />
+			</component>
+			<component type="StaticModel" id="16777566">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+		<node id="16777315">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock5" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="9.7293 -2.61401 3.51653" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1.5 1.5 1.5" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777567">
+				<attribute name="Shape Type" value="Sphere" />
+			</component>
+			<component type="RigidBody" id="16777568">
+				<attribute name="Physics Position" value="7.99123 -4.70524 1.98373" />
+			</component>
+			<component type="StaticModel" id="16777569">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+		<node id="16777351">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="rock2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.74571 -2.46132 -1.96541" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="2 2 2" />
+			<attribute name="Variables" />
+			<component type="CollisionShape" id="16777608">
+				<attribute name="Shape Type" value="Sphere" />
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+			</component>
+			<component type="RigidBody" id="16777609">
+				<attribute name="Physics Position" value="-3.48378 -4.55255 -3.49821" />
+			</component>
+			<component type="StaticModel" id="16777610">
+				<attribute name="Model" value="Model;Models/Sphere.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Rock.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="16777350">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="landmarks" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-3.6793 -5.49905 9.89052" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="13">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="depth4" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="10.5641 0.98 -15.0221" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="14">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_1m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.52573 3.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777321">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777577">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="1m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="15">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_2m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525732 2.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777322">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777578">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="2m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="16">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_3m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525732 1.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777323">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777579">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="3m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="17">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_4m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525732 0.456261 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777324">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.332214 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777580">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="4m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+		</node>
+		<node id="28">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="depth1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.70341 0.98 -4.06547" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="29">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_1m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.52573 3.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777333">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.543529 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777591">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="1m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="30">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_2m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 2.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777334">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777592">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="2m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="31">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_3m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 1.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777335">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777593">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="3m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="32">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_4m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 0.456261 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777336">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.332214 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777594">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="4m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+		</node>
+		<node id="33">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="depth2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.6743 0.98 -4.85" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="34">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_1m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.52573 3.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777337">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.543529 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777595">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="1m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="35">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_2m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 2.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777338">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777596">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="2m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="36">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_3m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 1.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777339">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777597">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="3m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="37">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_4m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 0.456261 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777340">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.332214 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777598">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="4m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+		</node>
+		<node id="38">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="depth3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.8787 0.98 -15.864" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="39">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_1m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.52573 3.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777341">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.543529 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777599">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="1m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="40">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_2m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 2.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777342">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777600">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="2m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="41">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_3m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 1.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777343">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777601">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="3m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="42">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_4m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 0.456261 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777344">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.332214 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777602">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="4m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+		</node>
+		<node id="43">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="depth5" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="10.5641 0.98 -3.91914" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="44">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_1m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.52573 3.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777346">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.543529 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777604">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="1m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="45">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_2m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 2.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777347">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777605">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="2m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="46">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_3m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 1.45626 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777348">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.33222 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777606">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="3m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+			<node id="47">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="depth_marker_4m" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.525731 0.456261 -0.0423431" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777349">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="local" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-0.54353 0.332214 0.251759" />
+					<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="Text3D" id="16777607">
+						<attribute name="Font" value="Font;CustomResources/font.TTF" />
+						<attribute name="Font Size" value="25" />
+						<attribute name="Text" value="4m" />
+						<attribute name="Text Alignment" value="Center" />
+						<attribute name="Face Camera Mode" value="Rotate Y" />
+						<attribute name="Draw Distance" value="10" />
+						<attribute name="Width" value="53" />
+						<attribute name="Text Effect" value="Stroke" />
+					</component>
+				</node>
+			</node>
+		</node>
+	</node>
+	<node id="16777310">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="obstacle2" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-6.50027 -2.12751 -2.32352" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1.5 5 1.5" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777543">
+			<attribute name="Shape Type" value="Cylinder" />
+		</component>
+		<component type="RigidBody" id="16777544">
+			<attribute name="Physics Position" value="-6.50027 -2.12751 -2.32352" />
+		</component>
+		<component type="StaticModel" id="16777545">
+			<attribute name="Model" value="Model;Models/Cylinder.mdl" />
+			<attribute name="Material" value="Material;Materials/Colors/Cyan.xml" />
+		</component>
+	</node>
+	<node id="16777352">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="obstacle1" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-4.55686 -2.12751 1.70309" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1.5 5 1.5" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777611">
+			<attribute name="Shape Type" value="Cylinder" />
+		</component>
+		<component type="RigidBody" id="16777612">
+			<attribute name="Physics Position" value="-4.55686 -2.12751 1.70309" />
+		</component>
+		<component type="StaticModel" id="16777613">
+			<attribute name="Model" value="Model;Models/Cylinder.mdl" />
+			<attribute name="Material" value="Material;Materials/Colors/Cyan.xml" />
+		</component>
+	</node>
+	<node id="16777354">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="gate1" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-1.78639 -0.939646 -5.68844" />
+		<attribute name="Rotation" value="0.5 0.5 -0.5 0.5" />
+		<attribute name="Scale" value="0.9 0.9 0.9" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777617">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+		</component>
+		<component type="RigidBody" id="16777618">
+			<attribute name="Physics Rotation" value="0.5 0.5 -0.5 0.5" />
+			<attribute name="Physics Position" value="-1.78639 -0.939646 -5.68844" />
+		</component>
+		<component type="StaticModel" id="16777619">
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+			<attribute name="Material" value="Material;Materials/Colors/Cyan.xml" />
+		</component>
+	</node>
+	<node id="16777355">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="gate4" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="6.8418 -3.0932 2.8147" />
+		<attribute name="Rotation" value="0.707107 0.707107 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777620">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+		</component>
+		<component type="RigidBody" id="16777621">
+			<attribute name="Physics Rotation" value="0.707107 0.707107 0 0" />
+			<attribute name="Physics Position" value="6.8418 -3.0932 2.8147" />
+		</component>
+		<component type="StaticModel" id="16777622">
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+			<attribute name="Material" value="Material;Materials/Colors/Cyan.xml" />
+		</component>
+	</node>
+	<node id="16777356">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="gate3" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="6.8418 -1.8581 -1.73807" />
+		<attribute name="Rotation" value="0.707107 0.707107 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777623">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+		</component>
+		<component type="RigidBody" id="16777624">
+			<attribute name="Physics Rotation" value="0.707107 0.707107 0 0" />
+			<attribute name="Physics Position" value="6.8418 -1.8581 -1.73807" />
+		</component>
+		<component type="StaticModel" id="16777625">
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+			<attribute name="Material" value="Material;Materials/Colors/Cyan.xml" />
+		</component>
+	</node>
+	<node id="16777357">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="gate2" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="3.29619 -1 -5.3613" />
+		<attribute name="Rotation" value="0.5 0.5 -0.5 0.5" />
+		<attribute name="Scale" value="0.9 0.9 0.9" />
+		<attribute name="Variables" />
+		<component type="CollisionShape" id="16777626">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+		</component>
+		<component type="RigidBody" id="16777627">
+			<attribute name="Physics Rotation" value="0.5 0.5 -0.5 0.5" />
+			<attribute name="Physics Position" value="3.29619 -1 -5.3613" />
+		</component>
+		<component type="StaticModel" id="16777628">
+			<attribute name="Model" value="Model;Models/Torus.mdl" />
+			<attribute name="Material" value="Material;Materials/Colors/Cyan.xml" />
+		</component>
+	</node>
+	<node id="887">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="DottedPathLine" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0.05 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="CustomGeometry" id="853">
+			<attribute name="Dynamic Vertex Buffer" value="true" />
+			<attribute name="Geometry Data" value="1 15 0 0 0 158 1 1 0 0 0 0 0 0 128 191 0 0 0 0 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 205 204 204 62 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 52 51 51 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 205 204 140 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 52 51 179 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 103 102 230 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 103 102 6 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 1 0 32 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 52 51 51 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 206 204 76 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 1 0 96 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 155 153 121 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 103 102 134 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 52 51 147 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 206 204 156 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 155 153 169 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 52 51 179 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 104 150 187 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 191 104 150 187 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 232 59 190 190 159 192 145 191 146 235 185 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 108 116 38 191 23 17 159 191 113 171 184 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 48 201 130 191 182 209 176 191 155 0 183 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 108 116 166 191 46 34 190 191 122 192 181 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 102 3 214 191 205 226 207 191 164 21 180 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 162 174 249 191 70 51 221 191 132 213 178 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 206 158 20 192 229 243 238 191 174 42 177 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 108 116 38 192 92 68 252 191 141 234 175 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 233 59 62 192 126 2 7 192 183 63 174 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 135 17 80 192 186 170 13 192 150 255 172 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 4 217 103 192 10 139 22 192 192 84 171 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 162 174 121 192 70 51 29 192 159 20 170 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 16 187 136 192 150 19 38 192 201 105 168 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 223 165 145 192 209 187 44 192 168 41 167 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 158 137 157 192 33 156 53 192 210 126 165 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 108 116 166 192 92 68 60 192 178 62 164 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 126 116 171 192 0 0 64 192 48 139 163 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 126 116 171 192 0 0 64 192 47 139 163 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 249 113 176 192 31 208 59 192 162 241 151 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 40 21 179 192 154 153 57 192 35 208 145 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 163 18 184 192 185 105 53 192 150 54 134 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 212 181 186 192 51 51 51 192 22 21 128 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 79 179 191 192 82 3 47 192 18 247 104 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 126 86 194 192 205 204 44 192 20 180 92 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 83 199 192 236 156 40 192 250 128 69 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 42 247 201 192 102 102 38 192 251 61 57 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 165 244 206 192 133 54 34 192 225 10 34 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 212 151 209 192 0 0 32 192 227 199 21 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 79 149 214 192 31 208 27 192 146 41 253 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 127 56 217 192 154 153 25 192 148 163 228 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 223 112 216 192 201 15 21 192 186 88 178 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 252 30 216 192 51 51 19 192 98 183 157 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 123 51 208 192 202 160 15 192 94 68 108 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 218 66 202 192 251 242 12 192 146 228 48 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 50 238 201 192 205 204 12 192 96 150 45 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 50 238 201 192 205 204 12 192 96 150 45 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 177 2 194 192 99 58 9 192 243 215 188 62 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 16 18 188 192 148 140 6 192 176 48 12 62 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 105 189 187 192 102 102 6 192 0 240 253 61 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 105 189 187 192 102 102 6 192 0 240 253 61 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 232 209 179 192 253 211 2 192 156 177 61 190 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 71 225 173 192 46 38 0 192 106 152 213 190 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 160 140 173 192 0 0 0 192 193 52 220 190 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 160 140 173 192 0 0 0 192 192 52 220 190 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 30 161 165 192 45 219 248 191 194 68 61 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 125 176 159 192 143 127 243 191 140 164 120 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 213 91 159 192 51 51 243 191 192 242 123 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 213 91 159 192 51 51 243 191 192 242 123 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 84 112 151 192 96 14 236 191 148 142 165 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 180 127 145 192 194 178 230 191 124 62 195 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 12 43 145 192 102 102 230 191 148 229 196 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 12 43 145 192 102 102 230 191 148 229 196 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 139 63 137 192 148 65 223 191 200 122 236 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 234 78 131 192 246 229 217 191 87 21 5 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 67 250 130 192 154 153 217 191 226 232 5 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 67 250 130 192 154 153 217 191 226 232 5 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 167 36 133 192 53 163 208 191 80 189 30 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 7 18 134 192 205 204 204 191 252 94 41 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 240 240 138 192 250 99 196 191 51 171 64 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 240 123 141 192 1 0 192 191 18 213 76 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 215 90 146 192 46 151 183 191 75 33 100 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 216 229 148 192 51 51 179 191 46 75 112 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 192 196 153 192 96 202 170 191 179 203 131 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 193 79 156 192 102 102 166 191 163 224 137 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 168 46 161 192 146 253 157 191 191 134 149 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 168 185 163 192 153 153 153 191 175 155 155 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 145 152 168 192 198 48 145 191 203 65 167 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 146 35 171 192 205 204 140 191 187 86 173 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 122 2 176 192 249 99 132 191 215 252 184 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 122 141 178 192 0 0 128 191 199 17 191 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 220 199 165 192 0 0 128 191 244 56 190 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 165 51 156 192 0 0 128 191 86 150 189 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 7 110 143 192 0 0 128 191 131 189 188 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 208 217 133 192 0 0 128 191 229 26 188 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 99 40 114 192 0 0 128 191 18 66 187 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 245 255 94 192 0 0 128 191 116 159 186 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 184 116 69 192 0 0 128 191 161 198 185 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 74 76 50 192 0 0 128 191 3 36 185 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 13 193 24 192 0 0 128 191 48 75 184 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 160 152 5 192 0 0 128 191 146 168 183 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 198 26 216 191 0 0 128 191 191 207 182 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 236 201 177 191 0 0 128 191 32 45 182 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 229 102 125 191 0 0 128 191 77 84 181 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 40 197 48 191 0 0 128 191 175 177 180 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 106 48 149 190 0 0 128 191 220 216 179 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 96 2 60 0 0 128 191 62 54 179 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 230 108 208 62 0 0 128 191 107 93 178 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 32 216 52 63 0 0 128 191 205 186 177 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 138 130 141 63 0 0 128 191 250 225 176 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 100 211 179 63 0 0 128 191 92 63 176 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 222 233 230 63 0 0 128 191 137 102 175 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 92 157 6 64 0 0 128 191 235 195 174 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 153 40 32 64 0 0 128 191 24 235 173 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 4 81 51 64 0 0 128 191 122 72 173 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 65 220 76 64 0 0 128 191 167 111 172 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 176 4 96 64 0 0 128 191 9 205 171 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 237 143 121 64 0 0 128 191 54 244 170 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 44 92 134 64 0 0 128 191 152 81 170 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 202 33 147 64 0 0 128 191 197 120 169 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 0 182 156 64 0 0 128 191 39 214 168 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 158 123 169 64 0 0 128 191 84 253 167 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 214 15 179 64 0 0 128 191 182 90 167 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 116 213 191 64 0 0 128 191 227 129 166 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 170 105 201 64 0 0 128 191 69 223 165 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 72 47 214 64 0 0 128 191 114 6 165 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 0 0 128 191 71 172 164 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 93 89 141 191 208 80 152 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 100 92 151 191 54 12 143 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 193 181 164 191 191 176 130 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 199 184 174 191 74 216 114 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 36 18 188 191 91 33 90 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 42 21 198 191 40 152 71 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 135 110 211 191 57 225 46 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 142 113 221 191 6 88 28 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 235 202 234 191 23 161 3 192 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 242 205 244 191 200 47 226 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 168 19 1 192 234 193 176 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 42 21 6 192 132 175 139 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 217 193 12 192 76 131 52 191 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 92 195 17 192 240 188 212 190 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 11 112 24 192 144 87 240 188 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 142 113 29 192 16 68 133 62 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 61 30 36 192 196 125 37 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 192 31 41 192 144 162 111 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 111 204 47 192 38 63 169 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 241 205 52 192 140 81 206 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 160 122 59 192 106 191 255 63 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 35 124 64 192 230 104 18 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 210 40 71 192 213 31 43 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 84 42 76 192 6 169 61 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 3 215 82 192 245 95 86 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 134 216 87 192 42 233 104 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 53 133 94 192 12 208 128 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 183 134 99 192 165 20 138 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 102 51 106 192 28 112 150 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 233 52 111 192 181 180 159 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 152 225 117 192 44 16 172 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 26 227 122 192 197 84 181 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0 250 126 219 64 255 255 127 192 16 204 190 64 0 0 0 0 0 0 128 63 0 0 0 0 255 255 0 255 0 0 0 0 0 0 0 0" />
+			<attribute name="Materials" value="Material;" />
+			<attribute name="Can Be Occluded" value="false" />
+		</component>
+	</node>
+</scene>

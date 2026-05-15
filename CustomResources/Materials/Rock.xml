@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<material>
+    <technique name="Techniques/DiffNormalSpec.xml" />
+    
+    <texture unit="diffuse" name="CustomResources/Textures/rock_diff_1k.png" />
+    <texture unit="normal" name="CustomResources/Textures/rock_nor_gl_1k.png" />
+    <texture unit="specular" name="CustomResources/Textures/rock_rough_1k.png" />
+    
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="1 1 1 50" />
+    
+    <parameter name="UOffset" value="2 0 0 0" />
+    <parameter name="VOffset" value="0 2 0 0" />
+</material>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<material>
+    <technique name="Techniques/DiffEmissiveAlpha.xml" />
+    
+    <texture unit="diffuse" name="CustomResources/grass.png" />
+    
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatEmissiveColor" value="1 1 1 1" />
+    
+    <parameter name="AlphaTestEnable" value="true" />
+    <parameter name="AlphaTestThreshold" value="0.5" />
+    <cull value="none" />
+</material>
